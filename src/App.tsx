@@ -19,7 +19,7 @@ function App() {
       <GlobalStyle />
       <div className="container">
         <Header />
-        <Produtos />
+        <Produtos favoritos={[]} />
       </div>
     </Provider>
   )
